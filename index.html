@@ -112,7 +112,66 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <div class="reservation__title">
+            <h1>Reservar uma mesa</h1>
+          </div>
+          <form action="" class="reservation__form">
+            <fieldset>
+              <label for="nome" class="reservation__form-label" form="nome"
+                >Nome: *</label
+              >
+              <input
+                type="text"
+                class="reservation__form-input"
+                id="nome"
+                placeholder="Nome"
+              />
+
+              <label
+                for="numeroconvidados"
+                class="reservation__form-label"
+                form="convidados"
+                >Número de convidados: *</label
+              >
+              <input
+                type="text"
+                class="reservation__form-input"
+                id="convidados"
+                placeholder="1-8"
+              />
+
+              <label
+                for="datahora"
+                class="reservation__form-label"
+                form="datahora"
+                >Data e hora: *</label
+              >
+              <input
+                type="date"
+                class="reservation__form-input"
+                id="datahora"
+              />
+
+              <label for="email" class="form__label" form="email"
+                >Seu e-mail: *</label
+              >
+              <input
+                type="text"
+                class="reservation__form-input"
+                id="email"
+                placeholder="email@email.com"
+              />
+            </fieldset>
+            <button type="submit" class="reservation__form-button">
+              Reservar uma mesa
+            </button>
+            <label for="" class="reservation__form-checkbox-label">
+              <input type="checkbox" class="reservation__form-checkbox" />
+              Eu concordo com os termos de uso
+            </label>
+          </form>
+        </section>
       </main>
       <footer class="footer"></footer>
     </div>
