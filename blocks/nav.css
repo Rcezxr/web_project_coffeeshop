@@ -1,0 +1,28 @@
+@import url("../blocks/nav.css");
+
+.nav {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav__links {
+  display: flex;
+  flex-direction: row;
+  margin-right: 80px;
+  margin-top: 30px;
+  list-style: none;
+}
+.nav__link {
+  text-decoration: none;
+  padding-right: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
+}
