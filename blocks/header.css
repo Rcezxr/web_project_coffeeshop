@@ -14,6 +14,16 @@
   flex-direction: column;
 }
 
+.span-accent {
+  font-family: "Noto serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+  display: block;
+}
+
 /*.logo_header {
   position: relative;
   width: 105px;
@@ -30,16 +40,6 @@
   max-width: 709px;
   margin-left: 80px;
   margin-top: 183px;
-}
-
-.span-accent {
-  font-family: "Noto serif";
-  font-style: italic;
-  font-weight: normal;
-  font-size: 58px;
-  line-height: 72px;
-  color: #2f80ed;
-  display: block;
 }
 
 .header__description {
