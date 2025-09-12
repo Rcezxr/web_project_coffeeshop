@@ -1,3 +1,6 @@
 .form {
   max-width: 385px;
 }
+.placeholder {
+  color: #838383;
+}
