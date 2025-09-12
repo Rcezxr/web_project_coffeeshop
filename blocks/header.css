@@ -14,7 +14,7 @@
   background-image: url("../images/background_header.svg");
 }
 
-.span-accent {
+.header__span-accent {
   display: flex;
   display: block;
   font-family: "Noto serif", "Times New Roman", serif;
