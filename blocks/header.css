@@ -7,12 +7,6 @@
   background-position: center;
   background-size: cover;
 }
-.header__content {
-  display: flex;
-  position: relative;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
 
 .span-accent {
   font-family: "Noto serif";
@@ -22,6 +16,12 @@
   line-height: 72px;
   color: #2f80ed;
   display: block;
+}
+.header__content {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 /*.logo_header {
