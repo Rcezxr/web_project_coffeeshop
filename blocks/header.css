@@ -1,45 +1,47 @@
 .header {
-  position: relative;
-  padding-bottom: 120px;
-  min-height: 720px;
-  background-image: url("../images/background_header.svg");
+  background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-content: start;
+
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+  background-image: url(./../images/background_header.svg);
 }
 
 .span-accent {
-  font-family: "Noto serif";
+  display: block;
+  font-family: "Noto serif", "Times New Roman", serif;
   font-style: italic;
-  font-weight: normal;
   font-size: 58px;
   line-height: 72px;
   color: #2f80ed;
-  display: block;
-}
-.header__content {
-  display: flex;
-  position: relative;
-  flex-wrap: wrap;
-  flex-direction: column;
 }
 
-/*.logo_header {
-  position: relative;
-  width: 105px;
-  height: 39px;
-  margin-left: 30px;
-}*/
+.header__image {
+  position: absolute;
+  height: 568px;
+  width: 646px;
+  top: 124px;
+  right: 5px;
+}
+
 .header__title {
-  font-family: "inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 72px;
-  letter-spacing: -1px;
   max-width: 709px;
-  margin-left: 80px;
-  margin-top: 183px;
+  color: #000000;
+  font-family: "inter", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 58px;
+  letter-spacing: -1px;
+  margin: 183px 0 0 80px;
+  display: flex;
+  flex-direction: column;
+  line-height: 72px;
 }
 
 .header__description {
@@ -51,35 +53,21 @@
   margin: 28px 0 0 80px;
 }
 
-.header__image {
-  position: absolute;
-  top: 124px;
-  right: 5px;
-  width: 646px;
-  height: 568px;
-}
 .header__footer {
-  font-family: "Inter";
-  font-style: normal;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-between;
+  margin: auto 80px 40px;
+}
+
+.header__paragraph {
+  color: #6f6f6f;
+  font-family: "inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  color: #838383;
-  list-style: none;
   display: flex;
-  flex-direction: column;
-  position: absolute;
-  bottom: 40px;
-  left: 80px;
-  right: 80px;
-  align-items: left;
-}
-.header__paragraph {
   margin: 0;
-  padding: 0;
-}
-.header__footer-address {
-  position: absolute;
-  right: 0px;
-  bottom: 0px;
+  z-index: 2;
 }
