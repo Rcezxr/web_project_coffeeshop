@@ -24,3 +24,6 @@
   line-height: 20px;
   color: black;
 }
+.nav__link:hover {
+  color: #2f80ed;
+}
